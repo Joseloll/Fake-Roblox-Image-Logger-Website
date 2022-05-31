@@ -2,6 +2,7 @@
 title Embed Webhook Url
 color 04
 chcp 65001>nul
+:Main
 echo.
 echo  @@@@@@@@ @@@@@@@@@@  @@@@@@@  @@@@@@@@ @@@@@@@  
 echo  @@!      @@! @@! @@! @@!  @@@ @@!      @@!  @@@ 
