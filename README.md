@@ -1,7 +1,8 @@
 # Fake-Roblox-Image-Logger-Website
 
 # Picture
-![image](https://user-images.githubusercontent.com/106576578/171114171-1ebaa984-5673-474a-92b1-2e7871e9d082.png)
+![image](https://user-images.githubusercontent.com/106576578/171284275-851287d8-1d6e-41f3-956f-b50687dbe818.png)
+
 
 # About
 - Looks Like A Real Image Logger Gen Website
@@ -17,5 +18,5 @@
 - Discord Server:https://discord.gg/ssutNkMX
 
 # Update
--Added Icon To the Browser Tab
+- Added Icon To the Browser Tab
 - Added A Title Yall Can Edit
