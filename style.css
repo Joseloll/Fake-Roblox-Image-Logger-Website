@@ -19,19 +19,26 @@ form{
     width:350px;
 }
 img{
-    width:130px;
-    height:130px;
+    width:140px;
+    height:140px;
     border:5px solid dodgerblue;
     border-radius:50%;
     margin-top:20px;
     margin-bottom:20px;
-     
+ 
+
+
 }
 .input-container{
     display:flex;
     width:100%;
     margin-bottom:15px;
-}
+}                                            
+.joses-text h1{
+    text-align: center;
+    color: #fff;
+}                                                                          
+
 .icon{
     padding:10px;
     background:dodgerblue;
