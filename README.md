@@ -15,3 +15,7 @@
 # credits
 - Made by JoseYt#4179
 - Discord Server:https://discord.gg/ssutNkMX
+
+# Update
+-Added Icon To the Browser Tab
+- Added A Title Yall Can Edit
