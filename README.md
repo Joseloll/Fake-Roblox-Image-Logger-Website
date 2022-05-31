@@ -8,8 +8,9 @@
 - Has A Sexy Design
 - Easy To Use
 - Open Source
-
-
+- Might Update It Took Make It Look More Real
+# Tutorial
+- https://www.youtube.com/watch?v=OVguDlpGf4k
 
 # credits
 - Made by JoseYt#4179
