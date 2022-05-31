@@ -19,4 +19,4 @@
 
 # Update
 - Added Icon To the Browser Tab
-- Added A Title Yall Can Edit
+- Added A Title That You Guys Can Edit The Title Is The Text Joses Image Logger
