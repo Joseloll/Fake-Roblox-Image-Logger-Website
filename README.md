@@ -5,5 +5,6 @@
 - Automatic Send To The Webhook When You Open The Html File
 - Sends A Embed To The Webhook
 - Fixed Some Spacing In The CSS Code
+- Also Added Assets Folder For The Images 
 # Note
 - Make Sure To Edit The Main.js And Put Your Webhook And The Other Required Info
