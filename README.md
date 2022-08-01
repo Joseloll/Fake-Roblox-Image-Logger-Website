@@ -6,4 +6,4 @@
 - Sends A Embed To The Webhook
 - Fixed Some Spacing In The CSS Code
 # Note
-- Make Sure To Edit The Main.js And Put Your Webhoook And The Other Required Info
+- Make Sure To Edit The Main.js And Put Your Webhook And The Other Required Info
