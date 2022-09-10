@@ -1,21 +1,20 @@
-var request = new XMLHttpRequest();
-request.open("POST", "Enter Webhook Here");
-request.setRequestHeader('Content-type', 'application/json');
+let webhookURL = "";
+let req = new XMLHttpRequest();
 
-var myEmbed = {
-  title: "Enter Title",
-  description: "@everyone Here Is Your Image [put image url]",
-  color: hexToDecimal("#0000FF")
-}
+const myEmbed = {
+	title: "TITLE_HERE",
+	description: "@everyone Here Is Your Image <IMAGE_URL_HERE>",
+	color: (function(hex) {
+		return parseInt(hex.replace("#", ''), 16);
+	})("#0000FF");
+};
 
-var params = {
-  username: "Enter UserName",
-  embeds: [ myEmbed ]
-}
+const params = {
+	username: "USERNAME_HERE",
+	embeds: [myEmbed]
+};
 
-request.send(JSON.stringify(params));
+req.open("POST", webhookURL)
+	.setRequestHeader("Content-type", "application/json")
+	.send(JSON.stringify(params));
 
-
-function hexToDecimal(hex) {
-  return parseInt(hex.replace("#",""), 16)
-}
