@@ -3,5 +3,3 @@
 
 # Update
 - Made It Send To Your Discord Webhook Using Users Input
-# Note
-- Make Sure To Edit The Main.js And Put Your Webhook And The Other Required Info
