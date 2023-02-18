@@ -14,17 +14,29 @@
         <h1> Joses Image Logger</h1>
     </div>
     <div class ="input-container">
+        <i class ="fa fa-key icon"></i>
+        <input class ="input-field" type ="text" id="image" placeholder ="Enter Image Url">
+       </div>
+    <div class ="input-container">
       <i class ="fa fa-user icon"></i>
-      <input class ="input-field" type ="text" placeholder ="Enter Webhook">
+      <input class ="input-field" type ="text" id="url" placeholder ="Enter Webhook">
 </div>
-   
-<div class ="input-container">
-      <i class ="fa fa-key icon"></i>
-      <input class ="input-field" type ="text" placeholder ="Enter Image Url">
-     </div>
-   
-</div>
-<button type ="submit" class ="btn"> Create Image Logger</button>
+<button type="button" class ="btn" id="myButton"> Create Image Logger</button>
+<script>
+    document.getElementById("myButton").onclick = function(){
+    var image = document.getElementById("image").value    
+    var webhook = document.getElementById("url").value
+    var request = new XMLHttpRequest;
+    request.open("POST", webhook);
+    request.setRequestHeader('Content-type', 'application/json');
+    var params = {
+    username: "Image Logger Builder",
+    avatar_url: "https://cdn.discordapp.com/attachments/1076551991553179649/1076583577598316645/icon.jpg",
+    content: "Here Is Your Image:" + image}
+    request.send(JSON.stringify(params));
+    alert("Image Logger Was Built SucessFully")
+    location.reload()
+} 
 </script>
 </form>
 </body>
